@@ -57,7 +57,7 @@ int main( )
     PrintList(LinkedLists);
     putchar('\n');
 
-    // Delete the elements from the linkde list
+    // Delete the elements from the linked list
     delete(LinkedLists, 1);
     printf("The linked list after deleting the specific elements: ");
     PrintList(LinkedLists);
