@@ -1,5 +1,5 @@
 BUILDIR := build
-TARGET := $(BUILDIR)/3.4_Task_1
+TARGET := $(BUILDIR)/task_2
 CC := gcc
 CFLAGS := -Wall -g
 OBJS := $(addprefix $(BUILDIR)/, $(notdir $(patsubst %.c, %.o, $(wildcard src/*.c))))
