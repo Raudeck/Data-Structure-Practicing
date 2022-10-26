@@ -1,0 +1,4 @@
+.*
+!.gitignore
+Task_2/build/*
+3.4_Task_1/build/*
